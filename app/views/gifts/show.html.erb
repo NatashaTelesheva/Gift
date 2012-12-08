@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Description:</b>
+  <%= @gift.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_user_gift_path(@gift.user, @gift) %> |
+<%= link_to 'Back', user_gifts_path(@gift.user) %>
